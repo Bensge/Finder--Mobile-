@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D9B52F415F75824003D69AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9B52F315F75824003D69AF /* UIKit.framework */; };
+		9D9B52F615F75824003D69AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9B52F515F75824003D69AF /* Foundation.framework */; };
+		9D9B52F815F75824003D69AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9B52F715F75824003D69AF /* CoreGraphics.framework */; };
+		9D9B52FE15F75824003D69AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D9B52FC15F75824003D69AF /* InfoPlist.strings */; };
+		9D9B530015F75824003D69AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B52FF15F75824003D69AF /* main.m */; };
+		9D9B530415F75824003D69AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B530315F75824003D69AF /* AppDelegate.m */; };
+		9D9B530715F75824003D69AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B530615F75824003D69AF /* ViewController.m */; };
+		9D9B530A15F75824003D69AF /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D9B530815F75824003D69AF /* ViewController_iPhone.xib */; };
+		9D9B530D15F75824003D69AF /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D9B530B15F75824003D69AF /* ViewController_iPad.xib */; };
+		9D9B531515F75824003D69AF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9B531415F75824003D69AF /* SenTestingKit.framework */; };
+		9D9B531615F75824003D69AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9B52F315F75824003D69AF /* UIKit.framework */; };
+		9D9B531715F75824003D69AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9B52F515F75824003D69AF /* Foundation.framework */; };
+		9D9B531F15F75824003D69AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D9B531D15F75824003D69AF /* InfoPlist.strings */; };
+		9D9B532215F75824003D69AF /* FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B532115F75824003D69AF /* FinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D9B531815F75824003D69AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D9B52E615F75824003D69AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D9B52EE15F75824003D69AF;
+			remoteInfo = Finder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D9B52EF15F75824003D69AF /* Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9B52F315F75824003D69AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D9B52F515F75824003D69AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D9B52F715F75824003D69AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D9B52FB15F75824003D69AF /* Finder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Finder-Info.plist"; sourceTree = "<group>"; };
+		9D9B52FD15F75824003D69AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D9B52FF15F75824003D69AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D9B530115F75824003D69AF /* Finder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Finder-Prefix.pch"; sourceTree = "<group>"; };
+		9D9B530215F75824003D69AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D9B530315F75824003D69AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D9B530515F75824003D69AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D9B530615F75824003D69AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D9B530915F75824003D69AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		9D9B530C15F75824003D69AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		9D9B531315F75824003D69AF /* FinderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9B531415F75824003D69AF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9D9B531C15F75824003D69AF /* FinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinderTests-Info.plist"; sourceTree = "<group>"; };
+		9D9B531E15F75824003D69AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D9B532015F75824003D69AF /* FinderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinderTests.h; sourceTree = "<group>"; };
+		9D9B532115F75824003D69AF /* FinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D9B52EC15F75824003D69AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9B52F415F75824003D69AF /* UIKit.framework in Frameworks */,
+				9D9B52F615F75824003D69AF /* Foundation.framework in Frameworks */,
+				9D9B52F815F75824003D69AF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9B530F15F75824003D69AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9B531515F75824003D69AF /* SenTestingKit.framework in Frameworks */,
+				9D9B531615F75824003D69AF /* UIKit.framework in Frameworks */,
+				9D9B531715F75824003D69AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D9B52E415F75824003D69AF = {
+			isa = PBXGroup;
+			children = (
+				9D9B52F915F75824003D69AF /* Finder */,
+				9D9B531A15F75824003D69AF /* FinderTests */,
+				9D9B52F215F75824003D69AF /* Frameworks */,
+				9D9B52F015F75824003D69AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D9B52F015F75824003D69AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D9B52EF15F75824003D69AF /* Finder.app */,
+				9D9B531315F75824003D69AF /* FinderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D9B52F215F75824003D69AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D9B52F315F75824003D69AF /* UIKit.framework */,
+				9D9B52F515F75824003D69AF /* Foundation.framework */,
+				9D9B52F715F75824003D69AF /* CoreGraphics.framework */,
+				9D9B531415F75824003D69AF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D9B52F915F75824003D69AF /* Finder */ = {
+			isa = PBXGroup;
+			children = (
+				9D9B530215F75824003D69AF /* AppDelegate.h */,
+				9D9B530315F75824003D69AF /* AppDelegate.m */,
+				9D9B530515F75824003D69AF /* ViewController.h */,
+				9D9B530615F75824003D69AF /* ViewController.m */,
+				9D9B530815F75824003D69AF /* ViewController_iPhone.xib */,
+				9D9B530B15F75824003D69AF /* ViewController_iPad.xib */,
+				9D9B52FA15F75824003D69AF /* Supporting Files */,
+			);
+			path = Finder;
+			sourceTree = "<group>";
+		};
+		9D9B52FA15F75824003D69AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D9B52FB15F75824003D69AF /* Finder-Info.plist */,
+				9D9B52FC15F75824003D69AF /* InfoPlist.strings */,
+				9D9B52FF15F75824003D69AF /* main.m */,
+				9D9B530115F75824003D69AF /* Finder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D9B531A15F75824003D69AF /* FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D9B532015F75824003D69AF /* FinderTests.h */,
+				9D9B532115F75824003D69AF /* FinderTests.m */,
+				9D9B531B15F75824003D69AF /* Supporting Files */,
+			);
+			path = FinderTests;
+			sourceTree = "<group>";
+		};
+		9D9B531B15F75824003D69AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D9B531C15F75824003D69AF /* FinderTests-Info.plist */,
+				9D9B531D15F75824003D69AF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D9B52EE15F75824003D69AF /* Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D9B532515F75824003D69AF /* Build configuration list for PBXNativeTarget "Finder" */;
+			buildPhases = (
+				9D9B52EB15F75824003D69AF /* Sources */,
+				9D9B52EC15F75824003D69AF /* Frameworks */,
+				9D9B52ED15F75824003D69AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Finder;
+			productName = Finder;
+			productReference = 9D9B52EF15F75824003D69AF /* Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D9B531215F75824003D69AF /* FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D9B532815F75824003D69AF /* Build configuration list for PBXNativeTarget "FinderTests" */;
+			buildPhases = (
+				9D9B530E15F75824003D69AF /* Sources */,
+				9D9B530F15F75824003D69AF /* Frameworks */,
+				9D9B531015F75824003D69AF /* Resources */,
+				9D9B531115F75824003D69AF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D9B531915F75824003D69AF /* PBXTargetDependency */,
+			);
+			name = FinderTests;
+			productName = FinderTests;
+			productReference = 9D9B531315F75824003D69AF /* FinderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D9B52E615F75824003D69AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Benno Krauss";
+			};
+			buildConfigurationList = 9D9B52E915F75824003D69AF /* Build configuration list for PBXProject "Finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D9B52E415F75824003D69AF;
+			productRefGroup = 9D9B52F015F75824003D69AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D9B52EE15F75824003D69AF /* Finder */,
+				9D9B531215F75824003D69AF /* FinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D9B52ED15F75824003D69AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9B52FE15F75824003D69AF /* InfoPlist.strings in Resources */,
+				9D9B530A15F75824003D69AF /* ViewController_iPhone.xib in Resources */,
+				9D9B530D15F75824003D69AF /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9B531015F75824003D69AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9B531F15F75824003D69AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D9B531115F75824003D69AF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D9B52EB15F75824003D69AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9B530015F75824003D69AF /* main.m in Sources */,
+				9D9B530415F75824003D69AF /* AppDelegate.m in Sources */,
+				9D9B530715F75824003D69AF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9B530E15F75824003D69AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9B532215F75824003D69AF /* FinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D9B531915F75824003D69AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D9B52EE15F75824003D69AF /* Finder */;
+			targetProxy = 9D9B531815F75824003D69AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D9B52FC15F75824003D69AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D9B52FD15F75824003D69AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D9B530815F75824003D69AF /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D9B530915F75824003D69AF /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9D9B530B15F75824003D69AF /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D9B530C15F75824003D69AF /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		9D9B531D15F75824003D69AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D9B531E15F75824003D69AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D9B532315F75824003D69AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D9B532415F75824003D69AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D9B532615F75824003D69AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Finder/Finder-Prefix.pch";
+				INFOPLIST_FILE = "Finder/Finder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D9B532715F75824003D69AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Finder/Finder-Prefix.pch";
+				INFOPLIST_FILE = "Finder/Finder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D9B532915F75824003D69AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Finder.app/Finder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Finder/Finder-Prefix.pch";
+				INFOPLIST_FILE = "FinderTests/FinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9D9B532A15F75824003D69AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Finder.app/Finder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Finder/Finder-Prefix.pch";
+				INFOPLIST_FILE = "FinderTests/FinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D9B52E915F75824003D69AF /* Build configuration list for PBXProject "Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9B532315F75824003D69AF /* Debug */,
+				9D9B532415F75824003D69AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D9B532515F75824003D69AF /* Build configuration list for PBXNativeTarget "Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9B532615F75824003D69AF /* Debug */,
+				9D9B532715F75824003D69AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D9B532815F75824003D69AF /* Build configuration list for PBXNativeTarget "FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9B532915F75824003D69AF /* Debug */,
+				9D9B532A15F75824003D69AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D9B52E615F75824003D69AF /* Project object */;
+}
