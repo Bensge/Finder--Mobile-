@@ -152,7 +152,7 @@
     FilesTableViewController *nextViewController = [[FilesTableViewController alloc] initWithStyle:UITableViewStylePlain];
      
     nextViewController.path = [NSString stringWithFormat:@"%@/%@/",self.path,[dataSource objectAtIndex:indexPath.row]];
-    
+     
     
      // Pass the selected object to the new view controller.
     
