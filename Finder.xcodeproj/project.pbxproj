@@ -13,14 +13,13 @@
 		9D9B52FE15F75824003D69AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D9B52FC15F75824003D69AF /* InfoPlist.strings */; };
 		9D9B530015F75824003D69AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B52FF15F75824003D69AF /* main.m */; };
 		9D9B530415F75824003D69AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B530315F75824003D69AF /* AppDelegate.m */; };
-		9D9B530715F75824003D69AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B530615F75824003D69AF /* ViewController.m */; };
-		9D9B530A15F75824003D69AF /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D9B530815F75824003D69AF /* ViewController_iPhone.xib */; };
-		9D9B530D15F75824003D69AF /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D9B530B15F75824003D69AF /* ViewController_iPad.xib */; };
 		9D9B531515F75824003D69AF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9B531415F75824003D69AF /* SenTestingKit.framework */; };
 		9D9B531615F75824003D69AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9B52F315F75824003D69AF /* UIKit.framework */; };
 		9D9B531715F75824003D69AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9B52F515F75824003D69AF /* Foundation.framework */; };
 		9D9B531F15F75824003D69AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D9B531D15F75824003D69AF /* InfoPlist.strings */; };
 		9D9B532215F75824003D69AF /* FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B532115F75824003D69AF /* FinderTests.m */; };
+		9D9B532D15F75849003D69AF /* FilesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B532C15F75849003D69AF /* FilesTableViewController.m */; };
+		9D9B533015F75FA3003D69AF /* FileDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B532F15F75FA2003D69AF /* FileDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,16 +43,16 @@
 		9D9B530115F75824003D69AF /* Finder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Finder-Prefix.pch"; sourceTree = "<group>"; };
 		9D9B530215F75824003D69AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D9B530315F75824003D69AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9D9B530515F75824003D69AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9D9B530615F75824003D69AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9D9B530915F75824003D69AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		9D9B530C15F75824003D69AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		9D9B531315F75824003D69AF /* FinderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9B531415F75824003D69AF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		9D9B531C15F75824003D69AF /* FinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinderTests-Info.plist"; sourceTree = "<group>"; };
 		9D9B531E15F75824003D69AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9D9B532015F75824003D69AF /* FinderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinderTests.h; sourceTree = "<group>"; };
 		9D9B532115F75824003D69AF /* FinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinderTests.m; sourceTree = "<group>"; };
+		9D9B532B15F75849003D69AF /* FilesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilesTableViewController.h; sourceTree = "<group>"; };
+		9D9B532C15F75849003D69AF /* FilesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilesTableViewController.m; sourceTree = "<group>"; };
+		9D9B532E15F75FA2003D69AF /* FileDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDetailsViewController.h; sourceTree = "<group>"; };
+		9D9B532F15F75FA2003D69AF /* FileDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +114,10 @@
 			children = (
 				9D9B530215F75824003D69AF /* AppDelegate.h */,
 				9D9B530315F75824003D69AF /* AppDelegate.m */,
-				9D9B530515F75824003D69AF /* ViewController.h */,
-				9D9B530615F75824003D69AF /* ViewController.m */,
-				9D9B530815F75824003D69AF /* ViewController_iPhone.xib */,
-				9D9B530B15F75824003D69AF /* ViewController_iPad.xib */,
+				9D9B532B15F75849003D69AF /* FilesTableViewController.h */,
+				9D9B532C15F75849003D69AF /* FilesTableViewController.m */,
+				9D9B532E15F75FA2003D69AF /* FileDetailsViewController.h */,
+				9D9B532F15F75FA2003D69AF /* FileDetailsViewController.m */,
 				9D9B52FA15F75824003D69AF /* Supporting Files */,
 			);
 			path = Finder;
@@ -226,8 +225,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D9B52FE15F75824003D69AF /* InfoPlist.strings in Resources */,
-				9D9B530A15F75824003D69AF /* ViewController_iPhone.xib in Resources */,
-				9D9B530D15F75824003D69AF /* ViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +261,8 @@
 			files = (
 				9D9B530015F75824003D69AF /* main.m in Sources */,
 				9D9B530415F75824003D69AF /* AppDelegate.m in Sources */,
-				9D9B530715F75824003D69AF /* ViewController.m in Sources */,
+				9D9B532D15F75849003D69AF /* FilesTableViewController.m in Sources */,
+				9D9B533015F75FA3003D69AF /* FileDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,22 +291,6 @@
 				9D9B52FD15F75824003D69AF /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9D9B530815F75824003D69AF /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D9B530915F75824003D69AF /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		9D9B530B15F75824003D69AF /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D9B530C15F75824003D69AF /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		9D9B531D15F75824003D69AF /* InfoPlist.strings */ = {
